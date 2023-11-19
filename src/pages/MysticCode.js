@@ -53,6 +53,7 @@ const mysticCodeStyles = {
   wrapper: {
     width: '600px',
     margin: '0 auto',
+    marginBottom: '40px',
     padding: '20px',
   },
   title: {

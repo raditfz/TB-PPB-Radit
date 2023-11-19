@@ -1,0 +1,29 @@
+/* styles.css (atau nama file yang Anda tentukan) */
+
+.KelasCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .KelasCard img {
+    display: flex;
+    max-width: 100%;
+    margin-right: 10px;
+    height: auto;
+    margin-bottom: 20px; /* Atur sesuai kebutuhan margin antara gambar dan teks */
+  }
+  
+  .KelasCard div {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .KelasCard div div {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  

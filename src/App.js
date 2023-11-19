@@ -6,7 +6,7 @@ import About from './pages/About';
 import ServantDetail from "./pages/ServantDetail";
 import MysticCode from './pages/MysticCode';
 import Summon from './pages/Summon';
-import Class from './pages/Class';
+import Kelas from './pages/Kelas';
 
 function App() {
   return (
@@ -20,11 +20,11 @@ function App() {
         <Route path="/About" element={<About />} />
         <Route path="/MysticCode" element={<MysticCode />} />
         <Route path="/Summon" element={<Summon />} />
-        <Route path="/Class" element={<Class />} />
+        <Route path="/kelas" element={<Kelas />} />
         <Route path="/Servant/ServantDetail/:servantId" element={<ServantDetail />} />
       </Routes>
       <footer>
-        <Link to="/Class" className="iconWrapper"> Class </Link>
+        <Link to="/kelas" className="iconWrapper"> Kelas </Link>
         <Link to="/MysticCode" className="iconWrapper"> Mystic Code </Link>
         <Link to="/Servant" className="iconWrapper"> Servant </Link>
         <Link to="/About" className="iconWrapper"> About </Link>

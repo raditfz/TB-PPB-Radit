@@ -44,7 +44,7 @@ function ServantDetail() {
   const charaGraphAscension3 = servant.extraAssets?.charaGraph?.ascension?.['3'];
 
   return (
-    <div className="ServantDetail">
+    <div style={{ marginBottom: "50px"}} className="ServantDetail">
       <h1>Servant Detail :</h1>
       <div className="imagesContainer">
         {charaGraphAscension1 && (

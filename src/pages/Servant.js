@@ -48,6 +48,9 @@ function Servant() {
         value={searchTerm}
         onChange={handleSearch}
       />
+      {filteredServants.length === 0 && (
+        <p>Servant name is unknown.</p>
+      )}
       <ul>
         {filteredServants.map((servant) => (
           <li key={servant.id}>
